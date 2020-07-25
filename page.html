@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>TicTacToe</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="logic.js"></script>
+	</head>
+	
+	<body id="body">
+		<header>
+			<h1>TicTacToe</h1>
+		</header>
+		
+		<main>
+			<h3 id="winner">Player One:<h3>
+			<table>
+				<tr class="first-row"> 
+					<th class="first-col"> <button id=0 onclick="change(0)"> </button> </th>
+					<th class="second-col"> <button id=1 onclick="change(1)"> </button> </th>
+					<th class="third-col"> <button id=2 onclick="change(2)"> </button> </th>
+				</tr>
+				
+				<tr class="second-row"> 
+					<th class="first-col"> <button id=3 onclick="change(3)"> </button> </th>
+					<th class="second-col"> <button id=4 onclick="change(4)"> </button> </th>
+					<th class="third-col"> <button id=5 onclick="change(5)"> </button> </th>
+				</tr>
+				
+				<tr class="third-row"> 
+					<th class="first-col"> <button id=6 onclick="change(6)"> </button> </th>
+					<th class="second-col"> <button id=7 onclick="change(7)"> </button> </th>
+					<th class="third-col"> <button id=8 onclick="change(8)"> </button> </th>
+				</tr>
+			</table>
+			
+			<button onclick = "reset()" id = "reset">Reset</button>
+		</main>
+		
+		<footer>
+			
+		</footer>
+	</body>
+</html>
