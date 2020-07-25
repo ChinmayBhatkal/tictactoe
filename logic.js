@@ -26,7 +26,7 @@ function change(id) {
 			count--;
 		}
 		
-		if(checkWin()) {
+		if(count >= 5 && checkWin()) {
 			if(count % 2 == 0) {
 				let win = document.getElementById("winner");
 				win.innerHTML = "Player Two Wins!";
